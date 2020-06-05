@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background: #f3f3f3;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+}
+
+a,
+a:focus,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    padding: 5%;
+    border-radius: 3px;
+}
+
+    .container.container--static {
+        width: 40%;
+        height: 20%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #000;
+        color: #eee;
+        opacity: 0.6;
+    }
+
+    .container.container--sliding {
+        width: 35%;
+        height: 50%;
+        background-color: #fefefe;
+        position: absolute;
+        top: 50%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.4);
+    }
+
+        .container.container--sliding .slider-content.signup {
+            display: none;
+        }
+
+.info-box {
+    width: 40%;
+    margin: 5% auto;
+}
+
+    .info-box.left {
+        float: left;
+    }
+
+    .info-box.right {
+        float: right;
+    }
+
+.heading {
+    font-family: 'Roboto';
+    font-size: 1.2em;
+}
+
+    .heading.alt {
+        margin-bottom: 10%;
+        text-transform: uppercase;
+        color: #7f7f7f;
+    }
+
+.info-text {
+    font-family: 'Roboto';
+    font-size: 0.7em;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+    .info-text.alt {
+        color: #aaa;
+    }
+
+.button {
+    width: 35%;
+    margin-top: 15px;
+    padding: 2% 5%;
+    background-color: transparent;
+    color: #eee;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+    .button.alt {
+        margin-bottom: 15px;
+        background-color: #7f7f7f;
+        border: 0;
+    }
+
+    .button:focus {
+        outline: 0;
+    }
+
+    .button:focus {
+        outline: 0;
+    }
+
+form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 0;
+    border-bottom: 2px solid #ddd;
+    font-family: 'Roboto';
+}
+
+    form input:focus {
+        outline: 0;
+    }
